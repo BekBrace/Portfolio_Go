@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #032d58;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+/* Add this to your existing style.css file */
+
+
+.form-group {
+    margin-bottom: 15px; /* Space between fields */
+}
+
+.form-group label {
+    display: block; /* Make label block-level for stacking */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make the label bold */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width of the parent */
+    padding: 10px; /* Space inside the input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+footer {
+    background-color: #032d58; /* Light background color */
+    padding: 20px; /* Space around the content */
+    color:#f4f4f4;
+    text-align: center; /* Center text */
+    position: relative; /* Ensures footer is positioned relative to its parent */
+    bottom: 0; /* Stick to the bottom of the page */
+    width: 100%; /* Full width */
+    border-top: 1px solid #dee2e6; /* Top border for separation */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Font size */
+}
+
+footer a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
